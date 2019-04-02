@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testsuit" verbose="1" >
+
+    <test name ="testorder2">
+        <classes>
+            <class name = "Android.testNGdemo.app3" >
+                <methods>
+                    <include name = "TestCat"/>
+                    <include name = "TestEat"/>
+                    <include name = "TestFood"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="testorder">
+        <classes>
+            <class name = "Android.testNGdemo.app1" />
+            <class name = "Android.testNGdemo.app2" />
+        </classes>
+    </test>
+
+
+</suite>
