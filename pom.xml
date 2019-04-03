@@ -31,6 +31,12 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<properties>
+						<property>
+							<name>testnames</name>
+							<value>testorder,testorder2</value>
+						</property>
+					</properties>
 					<!--<includes>
 						<include>app1.java</include>
 					</includes>
